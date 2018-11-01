@@ -15,8 +15,10 @@
             //Parent Components
         //----------------------------------------------------------------------------------------------------------
         
-        import sign_up from './components/sign up.jsx'
-import edit_profile from './components/edit profile.jsx'
+        import edit_profile from './components/edit profile.jsx'
+import search from './components/search.jsx'
+import chat from './components/chat.jsx'
+import sign_up from './components/sign up.jsx'
        
         //----------------------------------------------------------------------------------------------------------
         //Reducer
@@ -37,9 +39,11 @@ import edit_profile from './components/edit profile.jsx'
         
                 <Router basename="/" history={ history } >
                     <Switch>
-                        <Route path "/" component={sign_up}
-                        <Route path="/sign_up" component={sign_up} /> 
-,<Route path="/edit_profile" component={edit_profile} /> 
+                        <Route path "/" component={edit_profile}
+                        <Route path="/edit_profile" component={edit_profile} /> 
+,<Route path="/search" component={search} /> 
+,<Route path="/chat" component={chat} /> 
+,<Route path="/sign_up" component={sign_up} /> 
 
                     </Switch>
                 </Router>
