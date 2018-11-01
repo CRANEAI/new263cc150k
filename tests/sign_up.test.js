@@ -7,10 +7,10 @@
  * new
 */
 
-/* view has actions which trigger on events, view should should error messages and display activity indicator when processing */
-it("view has actions which trigger on events, view should should error messages and display activity indicator when processing", () => {
+/* chat view has a Label located at the bottom center of the view with text s */
+it("chat view has a Label located at the bottom center of the view with text s", () => {
   /* ToDo developer needs to complete unit test 
-               view has actions which trigger on events, view should should error messages and display activity indicator when processing
+               chat view has a Label located at the bottom center of the view with text s
                uncomment below and update the code to test
                 //instance.action(function(error) {
                 //  if (error) throw error;
