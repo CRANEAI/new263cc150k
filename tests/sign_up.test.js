@@ -7,10 +7,10 @@
  * new
 */
 
-/* the search view has a notification icon located at the bottom right of the view which on click will trigger the notification() action */
-it("the search view has a notification icon located at the bottom right of the view which on click will trigger the notification() action", () => {
+/* chat view has a Label located at the bottom center of the view with text s */
+it("chat view has a Label located at the bottom center of the view with text s", () => {
   /* ToDo developer needs to complete unit test 
-               the search view has a notification icon located at the bottom right of the view which on click will trigger the notification() action
+               chat view has a Label located at the bottom center of the view with text s
                uncomment below and update the code to test
                 //instance.action(function(error) {
                 //  if (error) throw error;
